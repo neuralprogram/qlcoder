@@ -12,7 +12,9 @@ Agentic Framework for Synthesizing CodeQL Queries
 - [Examples](#examples)
 - [Paper Environment](#paper-environment)
 - [Contributions](#contributions)
+- [Team](#team)
 - [Citation](#citation)
+- [Affiliated Projects](#affiliated-projects)
 
 ## Overview
 
@@ -328,6 +330,17 @@ The following versions were used to produce the results in the QLCoder paper.
 We welcome any contributions, pull requests, or issues!
 If you would like to contribute, please either file a new pull request or issue. Feel free to take on an existing issue too.
 
+## Team 
+QLCoder is collaborative effort between researchers at Cornell University, Johns Hopkins University, and the University of Pennsylvania. Please reach out to us if you have any questions. 
+
+[Claire Wang](https://clairewang.net) - CS PhD Student at University of Pennsylvania
+
+[Ziyang Li](https://liby99.github.io/) - Professor at Johns Hopkins University
+
+[Saikat Dutta](https://www.cs.cornell.edu/~saikatd/) - Professor at Cornell University 
+
+[Mayur Naik](https://www.cis.upenn.edu/~mhnaik/) - Professor at University of Pennsylvania
+
 ## Citation
 Consider citing our ICLR'26 paper:
 ```
@@ -342,3 +355,9 @@ Consider citing our ICLR'26 paper:
 }
 ```
 [Arxiv Link](https://arxiv.org/abs/2511.08462)
+
+## Affiliated Projects 
+The following are projects affiliated with the QLCoder authors. Feel free to check them out. 
+
+- [IRIS](https://github.com/iris-sast/iris) - LLM-identified sources/sinks appended to existing CodeQL security queries for a given repository. QLCoder is an extension of some of the IRIS ideas. [Arxiv Link](https://arxiv.org/abs/2405.17238)
+- [CWE-Bench-Java](https://github.com/iris-sast/iris/tree/v2/data) - Benchmark of Java security vulnerabilities containing CVE metadata, repos, and source/sink labels.
